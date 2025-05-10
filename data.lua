@@ -1,26 +1,26 @@
 data.raw["recipe"]["electronic-circuit"].ingredients = 
 {
-    {"copper-cable", 2},
-    {"pm-basic-breadboard", 2},
-    {"pm-basic-integrated-circuits", 3},
+    {type = "item", "copper-cable", amount = 2},
+    {type = "item", "pm-basic-breadboard", amount = 2},
+    {type = "item", "pm-basic-integrated-circuits", amount = 3},
 }
 data.raw["recipe"]["pm-fluid-circuit-breadboard"].ingredients = 
 {
-    {"pm-basic-breadboard",  4},
-    {"pm-vulcanised-rubber", 2}
+    {type = "item", "pm-basic-breadboard", amount = 4},
+    {type = "item", "pm-vulcanised-rubber", amount = 2}
 }
 data.raw["recipe"]["pm-advanced-circuit-breadboard"].ingredients = 
 {
-    {"pm-platinum-plate", 2},
-    {"pm-palladium-plate", 2},
-    {"pm-fluid-breadboard", 8},
+    {type = "item", "pm-platinum-plate", amount = 2},
+    {type = "item", "pm-palladium-plate", amount = 2},
+    {type = "item", "pm-fluid-breadboard", amount = 8},
 }
 data.raw["recipe"]["pm-processing-breadboard"].ingredients = 
 {
-    {"pm-indium-plate", 3},
+    {type = "item", name = "pm-indium-plate", amount = 3},
     {type = "fluid", name = "pm-ferric-chloride", amount = 10},
-    {"pm-advanced-circuit-breadboard", 16},
-    {"pm-cobalt-blue", 6}
+    {type = "item", name = "pm-advanced-circuit-breadboard", amount = 16},
+    {type = "item", name = "pm-cobalt-blue", amount = 6}
 }
 data.raw["recipe"]["pm-processing-breadboard"].results = 
 {
@@ -47,7 +47,7 @@ data.raw["recipe"]["pm-processing-breadboard"].main_product = "pm-processing-bre
 
 data.raw["recipe"]["pm-water-electroylsis"].ingredients = 
 {
-    {"pm-nickel-plate", 3},
-    {"iron-plate", 3},
+    {type = "item", name = "pm-nickel-plate", amount = 3},
+    {type = "item", name = "iron-plate", amount = 3},
     {type = "fluid", name = "pm-seawater", amount = 50}
 }
