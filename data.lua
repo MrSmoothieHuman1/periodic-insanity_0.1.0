@@ -3,6 +3,9 @@ require("prototypes.changes.circuits")
 
 --MARK: New
 
+
+
+local PM = require("library")
 data.raw["recipe"]["pm-water-electroylsis"].ingredients =
 {
     PM.ingredient("pm-nickel-plate", 3),
