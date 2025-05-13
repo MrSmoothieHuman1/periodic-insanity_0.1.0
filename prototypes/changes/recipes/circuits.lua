@@ -1,7 +1,7 @@
 local PM = ("library")
 
 --MARK: Green circuits
-data.raw["recipe"]["electronic-circuit"].ingredients = 
+data.raw["recipe"]["electronic-circuit"].ingredients =
 {
     PM.ingredient("copper-cable", 2),
     PM.ingredient("pm-basic-breadboard", 1),
@@ -9,14 +9,14 @@ data.raw["recipe"]["electronic-circuit"].ingredients =
 }
 
 --MARK: Fluid circuits
-data.raw["recipe"]["pm-fluid-circuit-breadboard"].ingredients = 
+data.raw["recipe"]["pm-fluid-circuit-breadboard"].ingredients =
 {
     PM.ingredient("pm-basic-breadboard", 4),
     P.ingredient("pm-vulcanised-rubber", 2),
 }
 
 --MARK: Red circuits
-data.raw["recipe"]["pm-advanced-circuit-breadboard"].ingredients = 
+data.raw["recipe"]["pm-advanced-circuit-breadboard"].ingredients =
 {
     PM.ingredient("pm-palladium-plate", 2),
     PM.ingredient("pm-platinum-plate", 2),
@@ -24,14 +24,14 @@ data.raw["recipe"]["pm-advanced-circuit-breadboard"].ingredients =
 }
 
 --MARK: Blue circuits
-data.raw["recipe"]["pm-processing-breadboard"].ingredients = 
+data.raw["recipe"]["pm-processing-breadboard"].ingredients =
 {
     PM.ingredient("pm-indium-plate", 3),
     PM.ingredient("pm-ferric-chloride", 10, "fluid"),
     PM.ingredient("pm-advanced-circuit-breadboard", 16),
     PM.ingredient("pm-cobalt-blue", 6),
 }
-data.raw["recipe"]["pm-processing-breadboard"].results = 
+data.raw["recipe"]["pm-processing-breadboard"].results =
 {
     PM.product_chance("pm-processing-breadboard", 1, 0.9),
     PM.product_range_chance("pm-advanced-circuit-breadboard", 2, 8, 0.75),
