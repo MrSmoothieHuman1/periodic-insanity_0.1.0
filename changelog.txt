@@ -1,0 +1,12 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2025-05-19
+  pick up your steel axe, and paint the factory RED:
+
+  Additions:
+    - Created hell. cannot unmake.
+    - Added hematite, chalcocite, violarite and sphalerite as the starter ores, instead of chunks - which are 4:1 ratio with their plates.
+
+  Changes:
+    - Changed circuit boards to be exponential. Orange boards take 4 green, red boards take 8 orange, blue boards take 16 red, etc
+
