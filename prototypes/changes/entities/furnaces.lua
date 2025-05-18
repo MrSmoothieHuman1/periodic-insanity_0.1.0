@@ -8,5 +8,5 @@ data.raw["furnace"]["pm-electric-furnace-2"].energy_source.drain = "100kW"
 data.raw["furnace"]["pm-electric-furnace-2"].icons_positioning =
 {
     {inventory_index = defines.inventory.furnace_modules, shift = {0, 1}, multi_row_initial_height_modifier = -0.3, max_icons_per_row = 4, scale = 0.42}
-},
+}
 
