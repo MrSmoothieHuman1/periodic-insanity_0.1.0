@@ -10,3 +10,4 @@ data.raw["furnace"]["pm-electric-furnace-2"].icons_positioning =
     {inventory_index = defines.inventory.furnace_modules, shift = {0, 1}, multi_row_initial_height_modifier = -0.3, max_icons_per_row = 4, scale = 0.42}
 }
 
+data.raw["furnace"]["pm-heat-furnace"].module_slots = 6

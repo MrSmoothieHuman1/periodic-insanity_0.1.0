@@ -9,4 +9,6 @@ Date: 2025-05-19
 
   Changes:
     - Changed circuit boards to be exponential. Orange boards take 4 green, red boards take 8 orange, blue boards take 16 red, etc
+    - Changed circuit board molding to also be exponential, but be one iteration behind normal boards.
+    - Lowered amount of module slots furnaces have, and gave them an electric drain which makes up half their power demand. Electric 1's have 5 slots, electric 2's have 8 slots, heat furnaces have 6 slots.
 
