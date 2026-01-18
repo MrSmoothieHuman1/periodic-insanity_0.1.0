@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "title": "Periodic Madness: Hard Mode",
     "author": "Mr.SmoothieHuman",
-    "factorio_version": "1.1",
-    "dependencies": ["base >= 1.1", "periodic-madness >= 0.5.200"],
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0.7", "periodic-madness >= 0.5.200"],
     "description": "we were always preoccupied with wether we could, instead of asking if we should."
 }
