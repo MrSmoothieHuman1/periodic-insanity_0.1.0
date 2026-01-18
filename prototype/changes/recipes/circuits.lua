@@ -1,18 +1,10 @@
 local PM = ("library")
 
---MARK: Green circuits
-data.raw["recipe"]["electronic-circuit"].ingredients =
-{
-    PM.ingredient("copper-cable", 2),
-    PM.ingredient("pm-basic-breadboard", 1),
-    PM.ingredient("pm-basic-integrated-circuits", 3),
-}
-
 --MARK: Fluid circuits
 data.raw["recipe"]["pm-fluid-circuit-breadboard"].ingredients =
 {
     PM.ingredient("pm-basic-breadboard", 4),
-    P.ingredient("pm-vulcanised-rubber", 2),
+    PM.ingredient("pm-vulcanised-rubber", 2),
 }
 
 --MARK: Red circuits
