@@ -31,10 +31,23 @@ data.raw["recipe"]["pm-processing-breadboard"].ingredients =
     PM.ingredient("pm-advanced-circuit-breadboard", 16),
     PM.ingredient("pm-cobalt-blue", 6),
 }
-data.raw["recipe"]["pm-processing-breadboard"].results =
+
+--MARK: Purple circuits
+data.raw["recipe"]["pm-tantalum-advanced-processing-breadboard"].ingredients = 
 {
-    PM.product_chance("pm-processing-breadboard", 1, 0.9),
-    PM.product_range_chance("pm-advanced-circuit-breadboard", 2, 8, 0.75),
-    PM.product_range_chance("pm-ferrich-chloride", 2, 4, 0.45, "fluid"),
+    PM.ingredient("pm-phosphoric-acid", 7.5, "fluid"),
+    PM.ingredient("pm-ferric-chloride", 5, "fluid"),
+    PM.ingredient("pm-etched-silicon-wafer", 3),
+    PM.ingredient("pm-processing-breadboard", 32),
+    PM.ingredient("pm-cadnium-red", 6),
+    PM.ingredient("pm-tantalum-contacts", 6)
 }
-data.raw["recipe"]["pm-processing-breadboard"].main_product = "pm-processing-breadboard"
+data.raw["recipe"]["pm-niobium-advanced-processing-breadboard"].ingredients = 
+{
+    PM.ingredient("pm-phosphoric-acid", 7.5, "fluid"),
+    PM.ingredient("pm-ferric-chloride", 5, "fluid"),
+    PM.ingredient("pm-etched-silicon-wafer", 3),
+    PM.ingredient("pm-processing-breadboard", 32),
+    PM.ingredient("pm-cadnium-red", 6),
+    PM.ingredient("pm-niobium-contacts", 6)
+}
