@@ -1,9 +1,7 @@
-local PM = ("library")
-
 --MARK: Fluid circuits
 data.raw["recipe"]["pm-fluid-circuit-breadboard"].ingredients =
 {
-    PM.ingredient("pm-basic-breadboard", 4),
+    PM.ingredient("pm-electronic-breadboard", 4),
     PM.ingredient("pm-vulcanised-rubber", 2),
 }
 
